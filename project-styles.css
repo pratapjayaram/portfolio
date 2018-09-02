@@ -1,0 +1,80 @@
+.project-overlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 88vw;
+    height: 100vh;
+    opacity: 0;
+    z-index: 3;
+    background: #E5E5E5;
+    margin: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.project-overlay.open{
+    display: inherit;
+}
+
+button.close{
+    position: absolute;
+    right: 3rem;
+    top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: inherit;
+    padding: 0;
+}
+
+.project{
+    display: none;
+    opacity: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.project.open{
+    display: inherit;
+}
+
+.hero-image{
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    margin-top: 10vh;
+    padding: auto;
+}
+
+
+.hero-image.labelinsight{
+    background-image: url("assets/li-logo.png");
+}
+
+.hero-image.uptake{
+    background-image: url("assets/uptake-logo.jpg");
+}
+
+.hero-image.biteback{
+    background-image: url("assets/biteback/hero.jpg");
+}
+
+.hero-image.mockups{
+    background-image: url("assets/mockups/mockups-hero.png");
+}
+
+.hero-image.spongee{
+    background-image: url("assets/spongee/spongee-hero.png");
+}
+
+.artifact-image{
+    background-size: contain;
+    margin: auto;
+
+}
+
+.project-actions{
+    display: block;
+    margin: auto;
+}
