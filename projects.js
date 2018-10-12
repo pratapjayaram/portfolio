@@ -8,7 +8,10 @@ $(".close").click(function(){
     window.location.href = "index.html";
 })
 
-
+$(".home").click(function(){
+    window.location.href= "index.html#work";
+    $(window).scrollTop($(window).height());
+})
 
 
 var projects = ["labelinsight.html", "uptake.html", "biteback.html", "spongee.html", "mockups.html"];

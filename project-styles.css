@@ -75,6 +75,7 @@ button.close{
 }
 
 .project-actions{
-    display: block;
+    position: relative;
     margin: auto;
+    width: fit-content;
 }
