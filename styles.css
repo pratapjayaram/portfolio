@@ -163,6 +163,17 @@ img{
     grid-template-columns: 1fr;
 }
 
+.headshot{
+    margin: auto;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 25vw;
+    background-image: url(headshot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25vw;
+}
+
 .home-copy{
     margin: auto;
     max-width: 49rem;
@@ -214,7 +225,7 @@ img{
 .contact-copy{
     position: relative;
     margin: auto;
-    max-width: 49rem;
+    max-width: 52rem;
 }
 
 
