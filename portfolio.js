@@ -35,7 +35,7 @@ $(".project-tile").click(function(){
     window.location.href = projects[tilenum];
 })
 
-var heroes = ["assets/li-logo.png", "assets/uptake-logo.jpg", "assets/biteback/hero.jpg", "assets/Spongee/spongee-hero.png", "assets/Mockups/mockups-hero.png"]
+var heroes = ["assets/li-logo.png", "assets/uptake-logo.jpg", "assets/biteback/hero.jpg", "assets/Spongee/spongee-hero.jpg", "assets/Mockups/mockups-hero.jpg"]
 for(var i = 0; i < heroes.length; i++){
     var pointer = "url(" + heroes[i] + ")";
     $(".project-tile").eq(i)

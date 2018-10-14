@@ -61,11 +61,11 @@ button.close{
 }
 
 .hero-image.mockups{
-    background-image: url("assets/mockups/mockups-hero.png");
+    background-image: url("assets/mockups/mockups-hero.jpg");
 }
 
 .hero-image.spongee{
-    background-image: url("assets/spongee/spongee-hero.png");
+    background-image: url("assets/spongee/spongee-hero.jpg");
 }
 
 .artifact-image{
