@@ -35,16 +35,9 @@ $(".project-tile").click(function(){
     window.location.href = projects[tilenum];
 })
 
-
-
-$(".close").click(function(){
-    $(".project-overlay").toggleClass("open").css("opacity", 0);
-    $(".project.open").toggleClass("open").css("opacity", 0);
-    window.location.href = "index.html";
-})
-
-
-$(".home").click(function(){
-    window.location.href= "index.html"
-    $(window).scrollTop($(window).height());
-})
+var heroes = ["assets/li-logo.png", "assets/uptake-logo.jpg", "assets/biteback/hero.jpg", "assets/Spongee/spongee-hero.jpg", "assets/Mockups/mockups-hero.jpg"]
+for(var i = 0; i < heroes.length; i++){
+    var pointer = "url(" + heroes[i] + ")";
+    $(".project-tile").eq(i)
+        .css("background-image", pointer);
+}

@@ -151,9 +151,8 @@ img{
 
 .content-grid{
     display: inline-block;
-    width: 75%;
     width: 100%;
-    height: 400vh;
+    height: 300vh;
 }
 
 
@@ -162,6 +161,17 @@ img{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.headshot{
+    margin: auto;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 25vw;
+    background-image: url(headshot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25vw;
 }
 
 .home-copy{
@@ -200,13 +210,27 @@ img{
 .project-tile{
     box-shadow: 0 2px 8px rgba(0,0,0,.25);
     height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45vw;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact-copy{
+    position: relative;
+    margin: auto;
+    max-width: 52rem;
 }
 
 
 
-
-
-@media (max-width: 900px) {
+/* @media only screen and (min-width: 900px) {
     .main-nav{
         display: none;
     }
@@ -214,89 +238,36 @@ img{
         margin: auto;
         grid-template-columns: 1fr;
     }
-}
+} */
 
-@media (max-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    html{
+        font-size: 32px;
+    }
+    body{
+        padding: 0 1.5rem 0 1.5rem;
+    }
     .work-grid{
-        grid-template-columns: repeat(3, calc(29vw - 1rem));
-        grid-template-rows: repeat(2, calc(29vw - 1rem))
+        grid-template-columns: repeat(3, calc(32vw - 1rem));
+        grid-template-rows: repeat(2, calc(32vw - 1rem))
+    }
+    .project-tile{
+        background-size: 55vw;
     }
 }
 
-
-
-/*
-
-
-.project-overlay{
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 88vw;
-    height: 100vh;
-    opacity: 0;
-    z-index: 3;
-    background: #E5E5E5;
-    margin: 0;
-    padding-left: 3rem;
-    padding-right: 3rem;
+@media only screen and (min-width: 414px) and (max-width: 768px){
+    html{
+        font-size: 32px;
+    }
+    body{
+        padding: 0 1.5rem 0 1.5rem;
+    }
+    .work-grid{
+        grid-template-columns: repeat(2, calc(45vw - 1rem));
+        grid-template-rows: repeat(3, calc(45vw - 1rem))
+    }
+    .project-tile{
+        background-size: 80vw;
+    }
 }
-
-.project-overlay.open{
-    display: inherit;
-}
-
-.close{
-    position: absolute;
-    right: 3rem;
-    top: 3rem;
-    background-color: inherit;
-}
-
-.project{
-    display: none;
-    opacity: 0;
-    overflow-y: auto;
-}
-
-.project.open{
-    display: inherit;
-}
-
-.hero-image{
-    margin: auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30vh;
-    margin-top: 10vh;
-    padding: auto;
-}
-
-.hero-image.labelinsight{
-    background-image: url("assets/li-logo.png");
-}
-
-.hero-image.uptake{
-    background-image: url("assets/Uptake-logo.png");
-}
-
-.hero-image.biteback{
-    background-image: url("assets/biteback/hero.jpg");
-}
-
-.hero-image.uptake{
-    background-image: url("assets/Uptake-logo.png");
-}
-
-.artifact-image{
-    background-size: contain;
-    margin: auto;
-
-}
-
-.project-actions{
-    display: block;
-    margin: auto;
-} */
