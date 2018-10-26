@@ -24,4 +24,4 @@ $(".next-project").click(function(){
     }
     console.log(window.location.href);
     window.location.href = "www.pratapjayaram.com/" + projects[current+1];
-    
+})
