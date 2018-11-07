@@ -22,6 +22,5 @@ $(".next-project").click(function(){
     for (var i = 0; i < project.length; i++){
         if (project.includes(projects[i])) current = i;
     }
-    console.log(window.location.href);
-    window.location.href = "www.pratapjayaram.com/" + projects[current+1];
-    
+    window.location.href = projects[current+1];
+})
