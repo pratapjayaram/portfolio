@@ -49,11 +49,11 @@ button.close{
 
 
 .hero-image.labelinsight{
-    background-image: url("assets/li-logo.png");
+    background-image: url("assets/liLogo.png");
 }
 
 .hero-image.uptake{
-    background-image: url("assets/uptake-logo.jpg");
+    background-image: url("assets/uptakeLogo.jpg");
 }
 
 .hero-image.biteback{
@@ -61,11 +61,11 @@ button.close{
 }
 
 .hero-image.mockups{
-    background-image: url("assets/mockups/mockups-hero.jpg");
+    background-image: url("assets/Mockups/mockups-hero.jpg");
 }
 
 .hero-image.spongee{
-    background-image: url("assets/spongee/spongee-hero.jpg");
+    background-image: url("assets/Spongee/spongeeHero.jpg");
 }
 
 .artifact-image{
@@ -75,7 +75,11 @@ button.close{
 }
 
 .project-actions{
-    position: relative;
-    margin: auto;
-    width: fit-content;
+  text-align: center;
+}
+
+.project-actions button {
+  display: inline-block;
+  margin: auto;
+  margin-right: 2rem;
 }
