@@ -5,7 +5,7 @@ $(".project").toggleClass("open").animate({
 $(".close").click(function(){
     $(".project-overlay").toggleClass("open").css("opacity", 0);
     $(".project.open").toggleClass("open").css("opacity", 0);
-    window.location.href = "index.html";
+    window.location.href = "index.html#work";
 })
 
 $(".home").click(function(){
@@ -14,7 +14,7 @@ $(".home").click(function(){
 })
 
 
-var projects = ["labelinsight.html", "uptake.html", "biteback.html", "spongee.html", "mockups.html"];
+var projects = ["labelinsight.html", "freefrom.html", "uptake.html", "biteback.html", "spongee.html", "mockups.html"];
 var current = 0;
 
 $(".next-project").click(function(){

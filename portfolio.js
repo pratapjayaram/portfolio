@@ -23,7 +23,7 @@ $(".page-down").click(function(){
     var scrollPoint = 0;
 })
 
-var projects = ["labelinsight.html", "uptake.html", "biteback.html", "spongee.html", "mockups.html"];
+var projects = ["labelinsight.html", "freefrom.html", "uptake.html", "biteback.html", "spongee.html", "mockups.html"];
 var current = 0;
 $(".project-tile").click(function(){
     var tilenum = $(this).index();
@@ -35,7 +35,7 @@ $(".project-tile").click(function(){
     window.location.href = projects[tilenum];
 })
 
-var heroes = ["assets/liLogo.png", "assets/uptakeLogo.jpg", "assets/biteback/hero.jpg", "assets/Spongee/spongeeHero.jpg", "assets/Mockups/mockups-hero.jpg"]
+var heroes = ["assets/liLogo.png", "assets/compCompass/hero.png", "assets/uptakeLogo.jpg", "assets/biteback/hero.jpg", "assets/Spongee/spongeeHero.jpg", "assets/Mockups/mockups-hero.jpg"]
 for(var i = 0; i < heroes.length; i++){
     var pointer = "url(" + heroes[i] + ")";
     $(".project-tile").eq(i)
