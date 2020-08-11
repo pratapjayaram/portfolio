@@ -68,6 +68,10 @@ button.close{
     background-image: url("assets/Spongee/spongeeHero.jpg");
 }
 
+.hero-image.compass{
+    background-image: url("assets/compCompass/hero.png");
+}
+
 .artifact-image{
     background-size: contain;
     margin: auto;
